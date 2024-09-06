@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    height: 100%;
+}
+
+.left-section {
+    width: 32vw;
+    background-image: url("https://i.ibb.co/FbLpWjg/halie-west-25xggax4b-SA-unsplash.jpg");
+}
+
+.right-section {
+    width: 68vw;
+}
