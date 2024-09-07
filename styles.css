@@ -48,3 +48,15 @@ a {
     width: 68vw;
     font-family: Roboto, Arial;
 }
+
+.description {
+    height: 35vh;
+}
+
+.form-section {
+    height: 30vh;
+}
+
+.buttons-container {
+    height: 35vh;
+}
