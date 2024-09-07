@@ -50,7 +50,7 @@ a {
 }
 
 .description {
-    height: 35vh;
+    height: 31vh;
     box-sizing: border-box;
     display: flex;
     flex-flow: column-reverse;
@@ -62,9 +62,57 @@ a {
 }
 
 .form-section {
-    height: 30vh;
+    height: 38vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 16px 50px 50px 50px;
+    gap: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.form-title {
+    font-size: 30px;
+    color: rgba(11, 11, 63, 0.8);
+    font-weight: bold;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #E5E7EB;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding: 8px 8px 8px 12px;
+}
+
+input:focus {
+    border: 2px solid rgba(0, 0, 255, 0.5);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+input[type="password"]:invalid {
+    border-color: red;
+}
+
+input[type="password"]:invalid + div::before {
+    content: "* Passwords do not match";
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 80px;
+    row-gap: 25px;
+}
+
+label {
+    display: block;
 }
 
 .buttons-container {
-    height: 35vh;
+    height: 31vh;
 }
