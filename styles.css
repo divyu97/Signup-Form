@@ -115,4 +115,35 @@ label {
 
 .buttons-container {
     height: 31vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 25px 0px 0px 50px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #596D48;
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    height: 60px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.buttons-container div {
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+a[href="/login"] {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: 700;
 }
